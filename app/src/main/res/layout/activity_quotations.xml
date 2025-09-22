@@ -11,7 +11,7 @@
     android:background="@drawable/chile">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageV"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
