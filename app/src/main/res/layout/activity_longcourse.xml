@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".longcourse"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/chile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
+
+    <TextView
+        android:id="@+id/txtlong"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:text="Welcome to
+Empowering the nation,6 Month course "
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioButton
+        android:id="@+id/radioOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="First Aid -R1500"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swewing-R1500"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioOption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Land scaping -R1500"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="life skills-R1500"
+            android:gravity="center_vertical"
+            android:textSize="20sp" />
+
+</RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnadd"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="Add"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnback"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="back"/>
+
+
+
+
+
+    </LinearLayout>
+

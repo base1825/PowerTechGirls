@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Locations"
+    android:orientation="vertical"
+    android:background="@drawable/chile"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtintro"
+        android:layout_width="350dp"
+        android:layout_height="143dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Welcome to
+Empowering the nation- Locations "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="288dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/l3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="288dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/l2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="279dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/l1" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/chile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
+
+    <TextView
+        android:id="@+id/txtintro"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Welcome to
+Empowering the nation"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnShort"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="16dp"
+        android:text="Short course"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn6Month"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF9800"
+        android:text="6 Month course"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAboutus"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF9800"
+        android:text="About us" />
+
+
+
+
+</LinearLayout>

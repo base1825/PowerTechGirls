@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shortcouse6week"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/chile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
+
+    <TextView
+        android:id="@+id/txtshort"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:text="Welcome to
+Empowering the nation, short course"
+        android:textColor="@color/white"/>
+
+    <!--Help from AI radio button and group-->
+
+    <RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioButton
+        android:id="@+id/radioOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="cooking -R750"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="child Minding -R750"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioOption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garden Maitinence -R750"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+</RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnadd"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="Add"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnback"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="back"/>
+
+
+
+
+</LinearLayout>
+
