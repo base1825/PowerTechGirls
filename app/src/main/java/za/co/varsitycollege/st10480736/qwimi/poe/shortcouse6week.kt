@@ -1,8 +1,10 @@
 package za.co.varsitycollege.st10480736.qwimi.poe
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatButton
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -16,5 +18,11 @@ class shortcouse6week : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+    val btn= findViewById<AppCompatButton>(R.id.btn)
+
+
+
+
     }
 }
