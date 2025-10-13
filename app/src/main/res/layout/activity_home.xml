@@ -46,7 +46,7 @@ Empowering the nation"
         android:text="6 Month course"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnAboutus"
+        android:id="@+id/btnQtion"
         android:layout_width="389dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"

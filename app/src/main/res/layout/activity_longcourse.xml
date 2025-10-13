@@ -8,7 +8,8 @@
     tools:context=".longcourse"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/chile">
+    android:background="@drawable/chile"
+    android:padding="16dp">
 
     <ImageView
         android:id="@+id/imageView"
@@ -20,62 +21,55 @@
         android:id="@+id/txtlong"
         android:layout_width="match_parent"
         android:layout_height="91dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="23dp"
         android:text="Welcome to
-Empowering the nation,6 Month course "
+Empowering the Nation, 6 Month Course"
         android:textColor="@color/white"/>
 
-    <RadioGroup
-    android:id="@+id/radioGroup"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp">
-
-    <RadioButton
-        android:id="@+id/radioOption1"
+    <!-- Services Checkboxes -->
+    <CheckBox
+        android:id="@+id/chkFirstAid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="First Aid - R1500"
         android:textColor="@color/white"
-        android:text="First Aid -R1500"
-        android:gravity="center_vertical"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:padding="8dp"/>
 
-    <RadioButton
-        android:id="@+id/radioOption2"
+    <CheckBox
+        android:id="@+id/chkSewing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Swewing-R1500"
+        android:text="Sewing - R1500"
         android:textColor="@color/white"
-        android:gravity="center_vertical"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:padding="8dp"/>
 
-    <RadioButton
-        android:id="@+id/radioOption3"
+    <CheckBox
+        android:id="@+id/chkLandscaping"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Land scaping -R1500"
+        android:text="Landscaping - R1500"
         android:textColor="@color/white"
-        android:gravity="center_vertical"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:padding="8dp"/>
 
-        <RadioButton
-            android:id="@+id/radioOption4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="life skills-R1500"
-            android:gravity="center_vertical"
-            android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/chkLifeSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Skills - R1500"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="8dp"/>
 
-</RadioGroup>
-
+    <!-- Add & Back Buttons -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnadd"
-        android:layout_width="389dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
         android:backgroundTint="#FF9800"
         android:layout_marginTop="16dp"
@@ -84,16 +78,22 @@ Empowering the nation,6 Month course "
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnback"
-        android:layout_width="389dp"
+        android:layout_width="match_parent"
         android:layout_height="56dp"
         android:backgroundTint="#FF9800"
         android:layout_marginTop="16dp"
         android:textColor="@color/white"
-        android:text="back"/>
+        android:text="Back"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnQuotation"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
+        android:text="Quotation"
+        android:textSize="14sp"
+        android:padding="8dp"/>
 
 
-
-
-
-    </LinearLayout>
-
+</LinearLayout>

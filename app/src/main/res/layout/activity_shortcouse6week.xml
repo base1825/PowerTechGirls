@@ -8,66 +8,59 @@
     tools:context=".shortcouse6week"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/chile">
+    android:background="@drawable/chile"
+    android:padding="16dp">
 
+    <!-- Logo -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
 
+    <!-- Intro Text -->
     <TextView
         android:id="@+id/txtshort"
         android:layout_width="match_parent"
         android:layout_height="91dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="23dp"
-        android:text="Welcome to
-Empowering the nation, short course"
+        android:text="Welcome to\nEmpowering the nation, short course"
         android:textColor="@color/white"/>
 
-    <!--Help from AI radio button and group-->
-
-    <RadioGroup
-    android:id="@+id/radioGroup"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp">
-
-    <RadioButton
-        android:id="@+id/radioOption1"
+    <!-- Courses as CheckBoxes -->
+    <CheckBox
+        android:id="@+id/chkCooking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Cooking - R750"
         android:textColor="@color/white"
-        android:text="cooking -R750"
-        android:gravity="center_vertical"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:padding="8dp"/>
 
-    <RadioButton
-        android:id="@+id/radioOption2"
+    <CheckBox
+        android:id="@+id/chkChildMinding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="child Minding -R750"
+        android:padding="8dp"
+        android:text="Child Minding - R750"
         android:textColor="@color/white"
-        android:gravity="center_vertical"
         android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/radioOption3"
+    <CheckBox
+        android:id="@+id/chkGardenMaintenance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Garden Maitinence -R750"
+        android:text="Garden Maintenance - R750"
         android:textColor="@color/white"
-        android:gravity="center_vertical"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:padding="8dp"/>
 
-</RadioGroup>
-
+    <!-- Buttons -->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnadd"
+        android:id="@+id/btnAdd"
         android:layout_width="389dp"
         android:layout_height="56dp"
         android:backgroundTint="#FF9800"
@@ -76,16 +69,24 @@ Empowering the nation, short course"
         android:text="Add"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnback"
+        android:id="@+id/btnBack"
         android:layout_width="389dp"
         android:layout_height="56dp"
         android:backgroundTint="#FF9800"
         android:layout_marginTop="16dp"
         android:textColor="@color/white"
-        android:text="back"/>
+        android:text="Back"/>
 
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnQuotation"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF9800"
+        android:padding="8dp"
+        android:text="Quotation"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
 
 
 </LinearLayout>
-
