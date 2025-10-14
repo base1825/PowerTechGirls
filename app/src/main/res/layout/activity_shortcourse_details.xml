@@ -10,41 +10,95 @@
     android:background="@drawable/chile"
     android:gravity="center">
 
+    <!-- Logo -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
 
+    <!-- Intro Text -->
     <TextView
         android:id="@+id/txtintro"
         android:layout_width="match_parent"
         android:layout_height="91dp"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="Welcome to
-Empowering the nation 6 week course details"
+        android:text="Welcome to\nEmpowering the nation 6 week course details"
         android:textAlignment="center"
         android:textColor="#FDF9F9"
         android:textSize="27sp"
         android:textStyle="bold" />
 
+    <!-- ScrollView for Courses -->
     <ScrollView
-        android:layout_width="361dp"
-        android:layout_height="470dp">
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_margin="16dp"
+        android:scrollbars="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical"
+            android:padding="8dp">
 
+            <!-- Child Minding Course -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Child Minding"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fees: R750"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:paddingBottom="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purpose: To provide basic child and baby care"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:paddingBottom="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Content:\n• Birth to six-month-old baby needs\n• Seven-month to one-year-old needs\n• Toddler needs\n• Educational toys"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:paddingBottom="12dp" />
+
+            <!-- Cooking Course -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cooking"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fees: R750">
+            </TextView>
+
+            <!-- Back Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBack1"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Back" />
+        </LinearLayout>
     </ScrollView>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnBack1"
-        android:layout_width="389dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#FF9800"
-        android:text="Back" />
-
 </LinearLayout>
