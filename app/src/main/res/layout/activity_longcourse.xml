@@ -7,9 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".longcourse"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/chile"
-    android:padding="16dp">
+    android:background="@drawable/img">
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -67,14 +66,15 @@ Empowering the Nation, 6 Month Course"
         android:padding="8dp"/>
 
     <!-- Add & Back Buttons -->
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnadd"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:backgroundTint="#FF9800"
         android:layout_marginTop="16dp"
-        android:textColor="@color/white"
-        android:text="Add"/>
+        android:backgroundTint="#FF9800"
+        android:text="Add"
+        android:textColor="@color/white" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnback"
