@@ -83,7 +83,7 @@ How to Run PowerTechGirls
 
 ##Clone the repository
 
-git clone
+git clone : https://github.com/base1825/PowerTechGirls.git
 
 
 
