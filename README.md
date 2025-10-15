@@ -132,9 +132,7 @@ Git & GitHub – Version control and collaboration.
 -LAICAH BANDA [ST10493996]
 [BASE IRENE MUDIMBI]	[ST10487874]
 	[KGANYA MASHEGAOANA]	 [ST10480736]
-  ## GIT AND GITHUB
-  GitHub Actions and Github
-This project uses GitHub Actions to automates the build and test process. every time code is opened , github Actions automatically : -Checks out the latest code -builds the project using gradle -Runs tests to ensure everything works as expected. This project is managed using to track changes in the codebase A central place to collaborate, manage issues, and review code integration with tools like github for automating builds,tests,and deployments.
+ 
 ## Design CONSIDERATIONS
 The visual design of the PowerTechGirls application follows a modern and professional aesthetic that reflects empowerment, growth, and excellence. The chosen color palette includes black, green, gold, and white, each selected with purpose:
 
@@ -149,3 +147,11 @@ White ensures clarity and readability, balancing the darker tones and maintainin
 The user interface was designed to be accessible, simple to navigate, and visually consistent across all screens. The layout uses adequate spacing, legible typography, and well-defined button elements to enhance the user experience on various Android devices.
 ## screenshots.
 
+<img wi<img width="302" height="486" alt="Screenshot 2025-10-15 220213" src="https://github.com/user-attachments/assets/9b9b7e2d-0924-4502-9678-4b35ab3209eb" />
+dth="346" height="534" alt="Screenshot 2025-10-15 220009" src="https://github.com/user-attachments/assets/f444f2c1-af8a-4482-b9ad-4b519ab3707b" />
+
+<img width="312" height="480" alt="Screenshot 2025-10-15 225741" src="https://github.com/user-attachments/assets/325e8e8f-9fd9-4abd-b9b3-a34a806c5cd6" />
+<img width="242" height="403" alt="Screenshot 2025-10-15 220629" src="https://github.com/user-attachments/assets/c8afe432-486f-41e8-bf7a-e6cfa420e025" />
+<img width="338" height="497" alt="Screenshot 2025-10-15 220535" src="https://github.com/user-attachments/assets/84e480f7-f49b-4522-b6ef-35f641f9ebd9" />
+
+<img width="339" height="491" alt="Screenshot 2025-10-15 172903" src="https://github.com/user-attachments/assets/473fd201-ddf6-4e28-897b-2b8a3ddb0d49" />
