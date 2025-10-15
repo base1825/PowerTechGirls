@@ -133,3 +133,6 @@ Git & GitHub – Version control and collaboration.
 [BASE IRENE MUDIMBI]	[ST10487874]
 	[KGANYA MASHEGAOANA]	 [ST10480736]
   ## GIT AND GITHUB
+  GitHub Actions and Github
+This project uses GitHub Actions to automates the build and test process. every time code is opened , github Actions automatically : -Checks out the latest code -builds the project using gradle -Runs tests to ensure everything works as expected. This project is managed using to track changes in the codebase A central place to collaborate, manage issues, and review code integration with tools like github for automating builds,tests,and deployments.
+## Design CONSIDERATIONS
