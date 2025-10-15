@@ -1,104 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".shortcourseDetails"
-    android:orientation="vertical"
     android:background="@drawable/chile"
-    android:gravity="center">
+    tools:context=".shortcourseDetails">
 
-    <!-- Logo -->
-    <ImageView
-        android:id="@+id/imageView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="68dp"
-        app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
-
-    <!-- Intro Text -->
-    <TextView
-        android:id="@+id/txtintro"
-        android:layout_width="match_parent"
-        android:layout_height="91dp"
-        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:gravity="center"
-        android:text="Welcome to\nEmpowering the nation 6 week course details"
-        android:textAlignment="center"
-        android:textColor="#FDF9F9"
-        android:textSize="27sp"
-        android:textStyle="bold" />
+        android:padding="20dp">
 
-    <!-- ScrollView for Courses -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="470dp"
-        android:layout_margin="16dp"
-        android:scrollbars="vertical">
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/copy_of_final_empowering_the_nation_logo___non_profit_bold_design" />
 
+        <!-- Intro Text -->
+        <TextView
+            android:id="@+id/txtintro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="Welcome to\nEmpowering the Nation 6 Week Course Details"
+            android:textAlignment="center"
+            android:textColor="#FDF9F9"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <!-- Row 1: Child Minding & Cooking -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="8dp">
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
 
-            <!-- Child Minding Course -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Child Minding"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold"
-                android:textSize="22sp"
-                android:paddingBottom="4dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fees: R750"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                android:paddingBottom="2dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Purpose: To provide basic child and baby care"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                android:paddingBottom="2dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Content:\n• Birth to six-month-old baby needs\n• Seven-month to one-year-old needs\n• Toddler needs\n• Educational toys"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp"
-                android:paddingBottom="12dp" />
-
-            <!-- Cooking Course -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cooking"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold"
-                android:textSize="22sp"
-                android:paddingBottom="4dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fees: R750">
-            </TextView>
-
-            <!-- Back Button -->
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnBack1"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:text="Back" />
+                android:id="@+id/btnChildMinding"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#FF9800"
+                android:text="Child Minding"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#FF9800"
+                android:text="Cooking"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+
+        <!-- Row 2: Garden Maintenance -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGardenMaintenance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FF9800"
+                android:text="Garden Maintenance"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <!-- Empty space to balance the row -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- Small Back Button at bottom -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBack"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF9800"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
