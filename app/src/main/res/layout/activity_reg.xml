@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Reg"
     android:orientation="vertical"
-    android:background="@drawable/backround_12">
+    android:background="@drawable/img">
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,7 +23,7 @@
         android:gravity="center"
         android:text="Register"
         android:textAlignment="center"
-        android:textColor="#FF5722"
+        android:textColor="@color/white"
         android:textSize="27sp"
         android:textStyle="bold" />
 

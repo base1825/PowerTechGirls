@@ -8,7 +8,7 @@
     tools:context=".contacts"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/chile">
+    android:background="@drawable/img">
 
     <ImageView
         android:id="@+id/imageView"
