@@ -103,7 +103,7 @@ Empowering the nation Quotations"
         android:layout_marginTop="30dp">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnBack"
+            android:id="@+id/btnFristAid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back" />

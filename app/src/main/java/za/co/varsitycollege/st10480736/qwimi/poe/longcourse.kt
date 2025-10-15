@@ -5,7 +5,6 @@ import android.widget.Toast
 import android.content.Intent
 import android.os.Bundle
 import android.widget.CheckBox
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -29,7 +28,7 @@ class longcourse : AppCompatActivity() {
         val chkLandscaping = findViewById<CheckBox>(R.id.Lanscaping)
         val chkLifeSkills = findViewById<CheckBox>(R.id.chkLifeSkills)
         val btnAdd = findViewById<AppCompatButton>(R.id.btnAdd)
-        val btnBack = findViewById<AppCompatButton>(R.id.btnBack)
+        val btnBack = findViewById<AppCompatButton>(R.id.btnFristAid)
         val btnQuotation = findViewById<AppCompatButton>(R.id.btnQuotation)
 
         btnAdd.setOnClickListener {

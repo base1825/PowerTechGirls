@@ -10,7 +10,6 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.Toast
-import za.co.varsitycollege.st10480736.qwimi.poe.Cart
 
 
 class shortcouse6week : AppCompatActivity() {
@@ -28,7 +27,7 @@ class shortcouse6week : AppCompatActivity() {
         val chkGardenMaintenance=findViewById<CheckBox>(R.id.chkGardenMaintenance)
 
         val btnAdd= findViewById<AppCompatButton>(R.id.btnAdd)
-        val btnBack=findViewById<AppCompatButton>(R.id.btnBack)
+        val btnBack=findViewById<AppCompatButton>(R.id.btnFristAid)
         val selected = Cart.selectedServices
 
 

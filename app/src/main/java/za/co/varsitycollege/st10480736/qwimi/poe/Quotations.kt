@@ -60,7 +60,7 @@ class Quotations : AppCompatActivity() {
 
         findViewById<TextView>(R.id.txtQuotation).text = quotationText
 
-        findViewById<AppCompatButton>(R.id.btnBack).setOnClickListener { finish() }
+        findViewById<AppCompatButton>(R.id.btnFristAid).setOnClickListener { finish() }
     }
 }
 
