@@ -136,3 +136,16 @@ Git & GitHub – Version control and collaboration.
   GitHub Actions and Github
 This project uses GitHub Actions to automates the build and test process. every time code is opened , github Actions automatically : -Checks out the latest code -builds the project using gradle -Runs tests to ensure everything works as expected. This project is managed using to track changes in the codebase A central place to collaborate, manage issues, and review code integration with tools like github for automating builds,tests,and deployments.
 ## Design CONSIDERATIONS
+The visual design of the PowerTechGirls application follows a modern and professional aesthetic that reflects empowerment, growth, and excellence. The chosen color palette includes black, green, gold, and white, each selected with purpose:
+
+Black represents strength, professionalism, and stability, creating a strong visual foundation.
+
+Green symbolizes growth, learning, and renewal—values that align with the training and upskilling mission of the project.
+
+Gold conveys achievement, success, and quality, reinforcing the organization’s vision of empowerment through education.
+
+White ensures clarity and readability, balancing the darker tones and maintaining a clean interface.
+
+The user interface was designed to be accessible, simple to navigate, and visually consistent across all screens. The layout uses adequate spacing, legible typography, and well-defined button elements to enhance the user experience on various Android devices.
+## screenshots.
+
