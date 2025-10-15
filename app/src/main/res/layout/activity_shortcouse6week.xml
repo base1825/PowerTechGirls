@@ -8,8 +8,7 @@
     tools:context=".shortcouse6week"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/chile"
-    android:padding="16dp">
+    android:background="@drawable/img">
 
     <!-- Logo -->
     <ImageView
@@ -69,7 +68,7 @@
         android:text="Add"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnFristAid"
+        android:id="@+id/btnback"
         android:layout_width="389dp"
         android:layout_height="56dp"
         android:backgroundTint="#FF9800"

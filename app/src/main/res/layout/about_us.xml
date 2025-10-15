@@ -5,12 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".shortcourse"
     android:orientation="vertical"
-    android:background="@drawable/img">
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/img"
+    tools:context=".shortcourse">
 
-    <ImageView
+
+
+
+
+
+
+<ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="68dp"
@@ -25,7 +31,7 @@
         android:text="Welcome to
 Empowering the nation"
         android:textAlignment="center"
-        android:textColor="#FF5722"
+        android:textColor="@color/white"
         android:textSize="27sp"
         android:textStyle="bold" />
 

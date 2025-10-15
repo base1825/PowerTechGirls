@@ -8,7 +8,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/backround_12">
+    android:background="@drawable/img">
 
     <ImageView
         android:id="@+id/imageView"
@@ -24,7 +24,7 @@
         android:gravity="center"
         android:text="Log in"
         android:textAlignment="center"
-        android:textColor="#FF5722"
+        android:textColor="@color/white"
         android:textSize="27sp"
         android:textStyle="bold" />
 

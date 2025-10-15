@@ -30,26 +30,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sandton, Johannesburg"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF9800"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnRandburg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Randburg, Johannesburg"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF9800"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnWaterfall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Waterfall, Johannesburg"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF9800"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
         android:text="Back" />
 
 
